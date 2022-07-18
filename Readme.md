@@ -2,15 +2,15 @@
 
 ## Table of Content
 
-* 1.0 Client Side - Phishing Attacks(#CSPhishing)
-  * 1.1 HTML Smuggling(#Smuggling)
-  * 1.2 VBA - Phishing(#VBAPhishing)
-  * 1.3 VBA - PreTexting(#VBAPreTexting)
-  * 1.4 VBA - VBA Shellcode Runner(#VBARunner)
-  * 1.5 Powershell - Shellcode Runner(#PSRunner)
-  * 1.6 PowerShell - Reflection Shellcode Runner(#PSReflection)
-  * 1.7 PowerShell - Bypass Proxy(#PSProxy)
-* 2.0 Client Side Code Execution With Windows Script Host(#CSWSH)
+* 1.0 Client Side - Phishing Attacks[#CSPhishing]
+  * 1.1 HTML Smuggling[#Smuggling]
+  * 1.2 VBA - Phishing[#VBAPhishing]
+  * 1.3 VBA - PreTexting[#VBAPreTexting]
+  * 1.4 VBA - VBA Shellcode Runner[#VBARunner]
+  * 1.5 Powershell - Shellcode Runner[#PSRunner]
+  * 1.6 PowerShell - Reflection Shellcode Runner[#PSReflection]
+  * 1.7 PowerShell - Bypass Proxy[#PSProxy]
+* 2.0 Client Side Code Execution With Windows Script Host[#CSWSH]
 
 # Client Side - Phishing Attacks<a name="CSPhishing"></a>
 
