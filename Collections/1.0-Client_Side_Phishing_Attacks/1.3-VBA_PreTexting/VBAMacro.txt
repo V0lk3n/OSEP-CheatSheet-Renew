@@ -1,0 +1,13 @@
+Sub Document_Open()
+	SubstitutePage
+End Sub
+
+Sub AutoOpen()
+	SubstitutePage
+End Sub
+
+Sub SubstitutePage()
+	ActiveDocument.Content.Select
+	Selection.Delete
+	ActiveDocument.AttachedTemplate.AutoTextEntries("<name of AutoText Gallery>").Insert Where:=Selection.Range, RichText:=True
+End Sub
