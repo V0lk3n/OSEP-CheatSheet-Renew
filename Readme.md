@@ -11,7 +11,7 @@
   * 1.6 [PowerShell - Reflection Shellcode Runner](#PSReflection)
   * 1.7 [PowerShell - Bypass Proxy](#PSProxy)
 * 2.0 [Client Side Code Execution With Windows Script Host](#CSWSH)
-
+  * 2.1 [Jscript Meterpreter Dropper](#JscriptMeterpreter) 
 
 # Client Side - Phishing Attacks<a name="CSPhishing"></a>
 
@@ -118,4 +118,12 @@ Code can be found <a href="/Collections/1.0-Client_Side_Phishing_Attacks/1.7-Pow
 
 
 # Client Side Code Execution With Windows Script Host<a name="CSWSH"></a>
+
+* Use JScript file format to execute Javascript on Windows targets through the Windows Script Host.
+
+## Jscript Meterpreter Dropper<a name="JscriptMeterpreter"></a>
+
+* This dropper download a Meterpreter executable from a web server and execute it.
+
+Code can be found <a href="/Collections/2.0-Client_Side_Code_Execution_With_WSH/2.1-JScript_Meterpreter_Dropper">here</a>
 
